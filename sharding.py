@@ -34,8 +34,10 @@ def get_user(email):
     result = cursor.fetchone()
     return result
 
-#insert_user("Lucas", "lucas3@example.com")
-#insert_user("Paola", "paola25@example.com")
+#insert_user("Lucas", "lucas9@example.com")
+#insert_user("Paola", "paola12@example.com")
 
 print(get_user("lucas@example.com"))  
+print(get_user("lucas6@example.com"))  
+print(get_user("lucas9@example.com"))  
 
